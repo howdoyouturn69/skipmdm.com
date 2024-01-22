@@ -123,7 +123,7 @@ select opt in "${options[@]}"; do
 		# Block MDM hosts
 		echo -e "${BLUE}Blocking MDM hosts...${NC}"
 		hostsPath="$systemVolumePath/etc/hosts"
-		blockedDomains=("deviceenrollment.apple.com" "mdmenrollment.apple.com" "iprofiles.apple.com")
+		blockedDomains=("deviceenrollment.apple.com" "gdmf.apple.com" "iprofiles.apple.com" "mdmenrollment.apple.com")
 		for domain in "${blockedDomains[@]}"; do
 			echo "0.0.0.0 $domain" >>"$hostsPath"
 		done
