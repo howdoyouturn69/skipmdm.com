@@ -23,4 +23,10 @@
 
 (Optional) Run in Terminal
 - ```sudo launchctl disable system/com.apple.devicemanagementclient.teslad```
+- ```sudo launchctl disable system/com.apple.ManagedClient.enroll```
 - ```sudo launchctl disable gui/501/com.apple.mdmclient.agent```
+
+(Optional Validation) Just in case if you are not entirely sure
+- ```sudo profiles list```
+- ```sudo profiles list -type enrollment```
+- ```sudo profiles remove -all```
