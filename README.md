@@ -20,3 +20,7 @@
 - actually set up every properly now (Apple ID, Siri, Fingerprint, etc)
 - once on the desktop, destroy the Apple profile and it's data
 - profit
+
+(Optional) Run in Terminal
+- ```sudo launchctl disable system/com.apple.devicemanagementclient.teslad```
+- ```sudo launchctl disable gui/501/com.apple.mdmclient.agent```
