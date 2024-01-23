@@ -28,5 +28,5 @@
 
 (Optional Validation) Just in case if you are not entirely sure
 - ```sudo profiles list```
-- ```sudo profiles list -type enrollment```
+- ```sudo profiles show -type enrollment```
 - ```sudo profiles remove -all```
